@@ -1,0 +1,69 @@
+{
+  "continent": "Prismasis Pausalis",
+  "regions": [
+    {
+      "name": "The West",
+      "provinces": [
+        { "id": "01", "name": "Losferoary" },
+        { "id": "02", "name": "Enetska Yendis" },
+        { "id": "03", "name": "Nivik" },
+        { "id": "04", "name": "Iyankska" },
+        { "id": "05", "name": "Daredi" },
+        { "id": "06", "name": "Aetheria" },
+        { "id": "07", "name": "Jesma" },
+        { "id": "08", "name": "Iyuha" },
+        { "id": "09", "name": "Lundene", "type": "island" },
+        { "id": "10", "name": "Gonolkai" },
+        { "id": "11", "name": "Ayahuari" },
+        { "id": "12", "name": "Sabbia" },
+        { "id": "13", "name": "The Southern Wilds" },
+        { "id": "14", "name": "Nargylis Ocean - West or Prismasis" },
+        {
+          "id": "15",
+          "name": "The Vast Kerya Sea",
+          "notes": "South of all Primasis"
+        }
+      ]
+    },
+    {
+      "name": "The Center",
+      "provinces": [
+        { "id": "01", "name": "Siriabli" }
+      ]
+    },
+    {
+      "name": "The East",
+      "provinces": [
+        { "id": "01", "name": "Tserys" },
+        { "id": "02", "name": "Maixos" },
+        { "id": "03", "name": "Prexis" },
+        { "id": "04", "name": "Fjallhavn" },
+        { "id": "05", "name": "Dubrovka" },
+        { "id": "06", "name": "The Norther Wilds" },
+        { "id": "07", "name": "Priosmachairí" },
+        { "id": "08", "name": "Zerkalo Vnutri" },
+        { "id": "09", "name": "Raihan" },
+        { "id": "10", "name": "Blutmond" },
+        { "id": "11", "name": "Altomaestria" },
+        {
+          "id": "12",
+          "name": "Ispren",
+          "type": "island",
+          "notes": "Island with bridge connected to mainland"
+        },
+        { "id": "13", "name": "Maixos" },
+        { "id": "14", "name": "Prexis" },
+        {
+          "id": "15",
+          "name": "Athosi Ocean - East of Prismasis"
+        },
+        { "id": "16", "name": "Vulcana", "type": "island" },
+        { "id": "17", "name": "Papara", "type": "island" },
+        { "id": "18", "name": "Palira", "type": "island" },
+        { "id": "19", "name": "Feldrith", "type": "island" },
+        { "id": "20", "name": "Apeku", "type": "island" },
+        { "id": "21", "name": "Xianjing", "type": "island" }
+      ]
+    }
+  ]
+}

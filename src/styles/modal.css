@@ -1,0 +1,61 @@
+/* File: src/styles/modal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #fff;
+    max-width: 800px;
+    width: 90%;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.left-menu {
+    width: 200px;
+    border-right: 1px solid #ddd;
+    background: #f7f7f7;
+    padding: 16px;
+}
+
+.left-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-menu li {
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.left-menu li:hover {
+    color: #007bff;
+}
+
+.modal-details {
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto;
+}
+
+.map-display {
+    margin: 16px 0;
+    text-align: center;
+}
+
+.map-display img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}

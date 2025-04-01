@@ -1,0 +1,457 @@
+{
+  "Losferoary": {
+    "region": "The West",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Losferoary.",
+      "Demographics": "Demographic details about Losferoary.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Enetska Yendis": {
+    "region": "The West",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Enetska Yendis.",
+      "Demographics": "Demographic details about Enetska Yendis.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Nivik": {
+    "region": "The West",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Nivik.",
+      "Demographics": "Demographic details about Nivik.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Iyankska": {
+    "region": "The West",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Iyankska.",
+      "Demographics": "Demographic details about Iyankska.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Daredi": {
+    "region": "The West",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Daredi.",
+      "Demographics": "Demographic details about Daredi.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Aetheria": {
+    "region": "The West",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Aetheria.",
+      "Demographics": "Demographic details about Aetheria.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Jesma": {
+    "region": "The West",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Jesma.",
+      "Demographics": "Demographic details about Jesma.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Iyuha": {
+    "region": "The West",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Iyuha.",
+      "Demographics": "Demographic details about Iyuha.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Lundene": {
+    "region": "The West",
+    "isIsland": true,
+    "categories": {
+      "General": "General information about Lundene (an island).",
+      "Demographics": "Demographic details about Lundene.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries specific to island life.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background and significance.",
+      "Infrastructure": "Island-specific details on transport, communications, and services."
+    }
+  },
+  "Gonolkai": {
+    "region": "The West",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Gonolkai.",
+      "Demographics": "Demographic details about Gonolkai.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Ayahuari": {
+    "region": "The West",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Ayahuari.",
+      "Demographics": "Demographic details about Ayahuari.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Sabbia": {
+    "region": "The West",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Sabbia.",
+      "Demographics": "Demographic details about Sabbia.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "The Southern Wilds": {
+    "region": "The West",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about The Southern Wilds.",
+      "Demographics": "Demographic details about this province.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Nargylis Ocean - West or Prismasis": {
+    "region": "The West",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Nargylis Ocean (West or Prismasis).",
+      "Demographics": "Demographic details about the surrounding communities.",
+      "Geography": "Geographic features and significance.",
+      "Economy": "Economic data including trade and resources.",
+      "Culture": "Cultural highlights and maritime traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Coastal and maritime infrastructure details."
+    }
+  },
+  "The Vast Kerya Sea": {
+    "region": "The West",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about The Vast Kerya Sea.",
+      "Demographics": "Demographic details from coastal regions.",
+      "Geography": "Geographic features, including its location south of all Primasis.",
+      "Economy": "Economic data with emphasis on sea trade and fisheries.",
+      "Culture": "Cultural highlights and traditions influenced by the sea.",
+      "History": "Historical significance and maritime history.",
+      "Infrastructure": "Ports, bridges, and coastal services information."
+    }
+  },
+  "Siriabli": {
+    "region": "The Center",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Siriabli.",
+      "Demographics": "Demographic details about Siriabli.",
+      "Geography": "Geographic features and central location factors.",
+      "Economy": "Economic data and key industries in Siriabli.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Tserys": {
+    "region": "The East",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Tserys.",
+      "Demographics": "Demographic details about Tserys.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Maixos": {
+    "region": "The East",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Maixos.",
+      "Demographics": "Demographic details about Maixos.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Prexis": {
+    "region": "The East",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Prexis.",
+      "Demographics": "Demographic details about Prexis.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Fjallhavn": {
+    "region": "The East",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Fjallhavn.",
+      "Demographics": "Demographic details about Fjallhavn.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Dubrovka": {
+    "region": "The East",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Dubrovka.",
+      "Demographics": "Demographic details about Dubrovka.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "The Norther Wilds": {
+    "region": "The East",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about The Norther Wilds.",
+      "Demographics": "Demographic details about The Norther Wilds.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Priosmachairí": {
+    "region": "The East",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Priosmachairí.",
+      "Demographics": "Demographic details about Priosmachairí.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Zerkalo Vnutri": {
+    "region": "The East",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Zerkalo Vnutri.",
+      "Demographics": "Demographic details about Zerkalo Vnutri.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Raihan": {
+    "region": "The East",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Raihan.",
+      "Demographics": "Demographic details about Raihan.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Blutmond": {
+    "region": "The East",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Blutmond.",
+      "Demographics": "Demographic details about Blutmond.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Altomaestria": {
+    "region": "The East",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Altomaestria.",
+      "Demographics": "Demographic details about Altomaestria.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Details on transport, communications, and public services."
+    }
+  },
+  "Ispren": {
+    "region": "The East",
+    "isIsland": true,
+    "categories": {
+      "General": "General information about Ispren (an island with a bridge connection to the mainland).",
+      "Demographics": "Demographic details about Ispren.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries specific to island life.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Island-specific details on transport, communications, and public services."
+    }
+  },
+  "Athosi Ocean - East of Prismasis": {
+    "region": "The East",
+    "isIsland": false,
+    "categories": {
+      "General": "General information about Athosi Ocean (East of Prismasis).",
+      "Demographics": "Demographic details for provinces near or on the coast.",
+      "Geography": "Geographic features and oceanic details.",
+      "Economy": "Economic data related to maritime trade and industries.",
+      "Culture": "Cultural highlights and traditions influenced by the sea.",
+      "History": "Historical background information.",
+      "Infrastructure": "Coastal and maritime service details."
+    }
+  },
+  "Vulcana": {
+    "region": "The East",
+    "isIsland": true,
+    "categories": {
+      "General": "General information about Vulcana, an island in the Athosi Ocean.",
+      "Demographics": "Demographic details about Vulcana.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries on the island.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Island-specific details on transport and communications."
+    }
+  },
+  "Papara": {
+    "region": "The East",
+    "isIsland": true,
+    "categories": {
+      "General": "General information about Papara, an island in the Athosi Ocean.",
+      "Demographics": "Demographic details about Papara.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries on the island.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Island-specific details on transport and communications."
+    }
+  },
+  "Palira": {
+    "region": "The East",
+    "isIsland": true,
+    "categories": {
+      "General": "General information about Palira, an island in the Athosi Ocean.",
+      "Demographics": "Demographic details about Palira.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries on the island.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Island-specific details on transport and communications."
+    }
+  },
+  "Feldrith": {
+    "region": "The East",
+    "isIsland": true,
+    "categories": {
+      "General": "General information about Feldrith, an island in the Athosi Ocean.",
+      "Demographics": "Demographic details about Feldrith.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries on the island.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Island-specific details on transport and communications."
+    }
+  },
+  "Apeku": {
+    "region": "The East",
+    "isIsland": true,
+    "categories": {
+      "General": "General information about Apeku, an island in the Athosi Ocean.",
+      "Demographics": "Demographic details about Apeku.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries on the island.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Island-specific details on transport and communications."
+    }
+  },
+  "Xianjing": {
+    "region": "The East",
+    "isIsland": true,
+    "categories": {
+      "General": "General information about Xianjing, an island in the Athosi Ocean.",
+      "Demographics": "Demographic details about Xianjing.",
+      "Geography": "Geographic features and location details.",
+      "Economy": "Economic data and main industries on the island.",
+      "Culture": "Cultural highlights and traditions.",
+      "History": "Historical background information.",
+      "Infrastructure": "Island-specific details on transport and communications."
+    }
+  }
+}
