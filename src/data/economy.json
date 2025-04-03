@@ -1,0 +1,13 @@
+{
+  "category": "Economy",
+  "description": "Brief overview of Prismasis' economy.",
+  "regions": [
+    {
+      "name": "Region Name",
+      "overview": "Region-specific economic details",
+      "exports": ["Export Item 1", "Export Item 2"],
+      "imports": ["Import Item 1", "Import Item 2"],
+      "notes": "Additional notes or details about the region's economy."
+    }
+  ]
+}
