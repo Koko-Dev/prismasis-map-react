@@ -1,457 +1,520 @@
 {
-  "Losferoary": {
+  "west-01": {
+    "name": "Losferoary",
     "region": "The West",
     "isIsland": false,
     "categories": {
-      "General": "General information about Losferoary.",
-      "Demographics": "Demographic details about Losferoary.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Enetska Yendis": {
+  "west-02": {
+    "name": "Enetska Yendis",
     "region": "The West",
     "isIsland": false,
     "categories": {
-      "General": "General information about Enetska Yendis.",
-      "Demographics": "Demographic details about Enetska Yendis.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Nivik": {
+  "west-03": {
+    "name": "Nivik",
     "region": "The West",
     "isIsland": false,
     "categories": {
-      "General": "General information about Nivik.",
-      "Demographics": "Demographic details about Nivik.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Iyankska": {
+  "west-04": {
+    "name": "Iyankska",
     "region": "The West",
     "isIsland": false,
     "categories": {
-      "General": "General information about Iyankska.",
-      "Demographics": "Demographic details about Iyankska.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Daredi": {
+  "west-05": {
+    "name": "Daredi",
     "region": "The West",
     "isIsland": false,
     "categories": {
-      "General": "General information about Daredi.",
-      "Demographics": "Demographic details about Daredi.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Aetheria": {
+  "west-06": {
+    "name": "Aetheria",
     "region": "The West",
     "isIsland": false,
     "categories": {
-      "General": "General information about Aetheria.",
-      "Demographics": "Demographic details about Aetheria.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Jesma": {
+  "west-07": {
+    "name": "Jesma",
     "region": "The West",
     "isIsland": false,
     "categories": {
-      "General": "General information about Jesma.",
-      "Demographics": "Demographic details about Jesma.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Iyuha": {
+  "west-08": {
+    "name": "Iyuha",
     "region": "The West",
     "isIsland": false,
     "categories": {
-      "General": "General information about Iyuha.",
-      "Demographics": "Demographic details about Iyuha.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Lundene": {
+  "west-09": {
+    "name": "Lundene",
     "region": "The West",
     "isIsland": true,
     "categories": {
-      "General": "General information about Lundene (an island).",
-      "Demographics": "Demographic details about Lundene.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries specific to island life.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background and significance.",
-      "Infrastructure": "Island-specific details on transport, communications, and services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Gonolkai": {
+  "west-10": {
+    "name": "Gonolkai",
     "region": "The West",
     "isIsland": false,
     "categories": {
-      "General": "General information about Gonolkai.",
-      "Demographics": "Demographic details about Gonolkai.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Ayahuari": {
+  "west-11": {
+    "name": "Ayahuari",
     "region": "The West",
     "isIsland": false,
     "categories": {
-      "General": "General information about Ayahuari.",
-      "Demographics": "Demographic details about Ayahuari.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Sabbia": {
+  "west-12": {
+    "name": "Sabbia",
     "region": "The West",
     "isIsland": false,
     "categories": {
-      "General": "General information about Sabbia.",
-      "Demographics": "Demographic details about Sabbia.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "The Southern Wilds": {
+  "west-13": {
+    "name": "The Southern Wilds",
     "region": "The West",
     "isIsland": false,
     "categories": {
-      "General": "General information about The Southern Wilds.",
-      "Demographics": "Demographic details about this province.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Nargylis Ocean - West or Prismasis": {
+  "west-14": {
+    "name": "Nargylis Ocean - West or Prismasis",
     "region": "The West",
-    "isIsland": false,
+    "isIsland": true,
     "categories": {
-      "General": "General information about Nargylis Ocean (West or Prismasis).",
-      "Demographics": "Demographic details about the surrounding communities.",
-      "Geography": "Geographic features and significance.",
-      "Economy": "Economic data including trade and resources.",
-      "Culture": "Cultural highlights and maritime traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Coastal and maritime infrastructure details."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "The Vast Kerya Sea": {
+  "west-15": {
+    "name": "The Vast Kerya Sea",
     "region": "The West",
-    "isIsland": false,
+    "isIsland": true,
     "categories": {
-      "General": "General information about The Vast Kerya Sea.",
-      "Demographics": "Demographic details from coastal regions.",
-      "Geography": "Geographic features, including its location south of all Primasis.",
-      "Economy": "Economic data with emphasis on sea trade and fisheries.",
-      "Culture": "Cultural highlights and traditions influenced by the sea.",
-      "History": "Historical significance and maritime history.",
-      "Infrastructure": "Ports, bridges, and coastal services information."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Siriabli": {
+  "center-01": {
+    "name": "Siriabli",
     "region": "The Center",
     "isIsland": false,
     "categories": {
-      "General": "General information about Siriabli.",
-      "Demographics": "Demographic details about Siriabli.",
-      "Geography": "Geographic features and central location factors.",
-      "Economy": "Economic data and key industries in Siriabli.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Tserys": {
+  "east-01": {
+    "name": "Tserys",
     "region": "The East",
     "isIsland": false,
     "categories": {
-      "General": "General information about Tserys.",
-      "Demographics": "Demographic details about Tserys.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Maixos": {
+  "east-02": {
+    "name": "Maixos",
     "region": "The East",
     "isIsland": false,
     "categories": {
-      "General": "General information about Maixos.",
-      "Demographics": "Demographic details about Maixos.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Prexis": {
+  "east-03": {
+    "name": "Prexis",
     "region": "The East",
     "isIsland": false,
     "categories": {
-      "General": "General information about Prexis.",
-      "Demographics": "Demographic details about Prexis.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Fjallhavn": {
+  "east-04": {
+    "name": "Fjallhavn",
     "region": "The East",
     "isIsland": false,
     "categories": {
-      "General": "General information about Fjallhavn.",
-      "Demographics": "Demographic details about Fjallhavn.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Dubrovka": {
+  "east-05": {
+    "name": "Dubrovka",
     "region": "The East",
     "isIsland": false,
     "categories": {
-      "General": "General information about Dubrovka.",
-      "Demographics": "Demographic details about Dubrovka.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "The Norther Wilds": {
+  "east-06": {
+    "name": "The Norther Wilds",
     "region": "The East",
     "isIsland": false,
     "categories": {
-      "General": "General information about The Norther Wilds.",
-      "Demographics": "Demographic details about The Norther Wilds.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Priosmachairí": {
+  "east-07": {
+    "name": "Priosmachair\u00ed",
     "region": "The East",
     "isIsland": false,
     "categories": {
-      "General": "General information about Priosmachairí.",
-      "Demographics": "Demographic details about Priosmachairí.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Zerkalo Vnutri": {
+  "east-08": {
+    "name": "Zerkalo Vnutri",
     "region": "The East",
     "isIsland": false,
     "categories": {
-      "General": "General information about Zerkalo Vnutri.",
-      "Demographics": "Demographic details about Zerkalo Vnutri.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Raihan": {
+  "east-09": {
+    "name": "Raihan",
     "region": "The East",
     "isIsland": false,
     "categories": {
-      "General": "General information about Raihan.",
-      "Demographics": "Demographic details about Raihan.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Blutmond": {
+  "east-10": {
+    "name": "Blutmond",
     "region": "The East",
     "isIsland": false,
     "categories": {
-      "General": "General information about Blutmond.",
-      "Demographics": "Demographic details about Blutmond.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Altomaestria": {
+  "east-11": {
+    "name": "Altomaestria",
     "region": "The East",
     "isIsland": false,
     "categories": {
-      "General": "General information about Altomaestria.",
-      "Demographics": "Demographic details about Altomaestria.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Ispren": {
+  "east-12": {
+    "name": "Ispren",
     "region": "The East",
     "isIsland": true,
     "categories": {
-      "General": "General information about Ispren (an island with a bridge connection to the mainland).",
-      "Demographics": "Demographic details about Ispren.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries specific to island life.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Island-specific details on transport, communications, and public services."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Athosi Ocean - East of Prismasis": {
+  "east-13": {
+    "name": "Maixos",
     "region": "The East",
     "isIsland": false,
     "categories": {
-      "General": "General information about Athosi Ocean (East of Prismasis).",
-      "Demographics": "Demographic details for provinces near or on the coast.",
-      "Geography": "Geographic features and oceanic details.",
-      "Economy": "Economic data related to maritime trade and industries.",
-      "Culture": "Cultural highlights and traditions influenced by the sea.",
-      "History": "Historical background information.",
-      "Infrastructure": "Coastal and maritime service details."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Vulcana": {
+  "east-14": {
+    "name": "Prexis",
+    "region": "The East",
+    "isIsland": false,
+    "categories": {
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
+    }
+  },
+  "east-15": {
+    "name": "Athosi Ocean - East of Prismasis",
     "region": "The East",
     "isIsland": true,
     "categories": {
-      "General": "General information about Vulcana, an island in the Athosi Ocean.",
-      "Demographics": "Demographic details about Vulcana.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries on the island.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Island-specific details on transport and communications."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Papara": {
+  "east-16": {
+    "name": "Vulcana",
     "region": "The East",
     "isIsland": true,
     "categories": {
-      "General": "General information about Papara, an island in the Athosi Ocean.",
-      "Demographics": "Demographic details about Papara.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries on the island.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Island-specific details on transport and communications."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Palira": {
+  "east-17": {
+    "name": "Papara",
     "region": "The East",
     "isIsland": true,
     "categories": {
-      "General": "General information about Palira, an island in the Athosi Ocean.",
-      "Demographics": "Demographic details about Palira.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries on the island.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Island-specific details on transport and communications."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Feldrith": {
+  "east-18": {
+    "name": "Palira",
     "region": "The East",
     "isIsland": true,
     "categories": {
-      "General": "General information about Feldrith, an island in the Athosi Ocean.",
-      "Demographics": "Demographic details about Feldrith.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries on the island.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Island-specific details on transport and communications."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Apeku": {
+  "east-19": {
+    "name": "Feldrith",
     "region": "The East",
     "isIsland": true,
     "categories": {
-      "General": "General information about Apeku, an island in the Athosi Ocean.",
-      "Demographics": "Demographic details about Apeku.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries on the island.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Island-specific details on transport and communications."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   },
-  "Xianjing": {
+  "east-20": {
+    "name": "Apeku",
     "region": "The East",
     "isIsland": true,
     "categories": {
-      "General": "General information about Xianjing, an island in the Athosi Ocean.",
-      "Demographics": "Demographic details about Xianjing.",
-      "Geography": "Geographic features and location details.",
-      "Economy": "Economic data and main industries on the island.",
-      "Culture": "Cultural highlights and traditions.",
-      "History": "Historical background information.",
-      "Infrastructure": "Island-specific details on transport and communications."
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
+    }
+  },
+  "east-21": {
+    "name": "Xianjing",
+    "region": "The East",
+    "isIsland": true,
+    "categories": {
+      "Economy": "Details about the economy and key industries of this province.",
+      "Lore": "Legends, beliefs, and cultural narratives unique to this place.",
+      "Geography": "Geographic features, terrain, and strategic location.",
+      "Military and Governance": "Structure of leadership, defense, and law.",
+      "Landmarks": "Notable sites, wonders, or important physical features.",
+      "Significant Figures": "Prominent historical or current individuals.",
+      "Dilemmas and Conflicts": "Ongoing tensions, conflicts, or political struggles."
     }
   }
 }

@@ -1,20 +1,19 @@
-// MapComponent.jsx
+// src/components/MapComponent.jsx
 import React from 'react';
 import { MapContainer, ImageOverlay } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import mapImg from '../assets/images/map.png'; // Adjust the path if necessary
+import mapImg from '../assets/images/map.png'; // Check the path carefully!
 
 const MapComponent = () => {
-    // Define the bounds for the image in [y, x] format.
-    // Change these values based on your image's dimensions.
+    // These bounds represent [y,x] coordinates. Adjust if needed based on your image.
     const bounds = [[0, 0], [600, 800]];
 
     return (
-        <div style={{ height: '600px' }}>
+        <div style={{ height: '600px', width: '100%' }}>
             <MapContainer
-                crs={L.CRS.Simple}           // Use simple CRS for a static image
-                bounds={bounds}              // Set the bounds from bottom-left to top-right
+                crs={L.CRS.Simple}
+                bounds={bounds}
                 style={{ height: '100%', width: '100%' }}
             >
                 <ImageOverlay url={mapImg} bounds={bounds} />

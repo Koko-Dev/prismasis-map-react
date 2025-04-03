@@ -1,0 +1,151 @@
+{
+  "id": "west-12",
+  "name": "Sabbia",
+  "region": "The West",
+  "places": [
+    {
+      "id": "sabbia-talhona",
+      "name": "Talhona",
+      "type": "village",
+      "position": [
+        420,
+        320
+      ],
+      "categories": {
+        "Economy": "",
+        "Lore": "",
+        "Geography": "",
+        "Military and Governance": "",
+        "Landmarks": "",
+        "Significant Figures": "",
+        "Dilemmas and Conflicts": ""
+      }
+    },
+    {
+      "id": "sabbia-anaabi-asil",
+      "name": "Anaabi Asil",
+      "type": "village",
+      "position": [
+        440,
+        340
+      ],
+      "categories": {
+        "Economy": "",
+        "Lore": "",
+        "Geography": "",
+        "Military and Governance": "",
+        "Landmarks": "",
+        "Significant Figures": "",
+        "Dilemmas and Conflicts": ""
+      }
+    },
+    {
+      "id": "sabbia-harotsin",
+      "name": "Harotsin",
+      "type": "village",
+      "position": [
+        460,
+        360
+      ],
+      "categories": {
+        "Economy": "",
+        "Lore": "",
+        "Geography": "",
+        "Military and Governance": "",
+        "Landmarks": "",
+        "Significant Figures": "",
+        "Dilemmas and Conflicts": ""
+      }
+    },
+    {
+      "id": "sabbia-shifanaa-temple",
+      "name": "Shifanaa Temple",
+      "type": "temple",
+      "position": [
+        480,
+        380
+      ],
+      "categories": {
+        "Economy": "",
+        "Lore": "",
+        "Geography": "",
+        "Military and Governance": "",
+        "Landmarks": "",
+        "Significant Figures": "",
+        "Dilemmas and Conflicts": ""
+      }
+    },
+    {
+      "id": "sabbia-qahalia",
+      "name": "Qahalia",
+      "type": "city",
+      "position": [
+        500,
+        400
+      ],
+      "categories": {
+        "Economy": "",
+        "Lore": "",
+        "Geography": "",
+        "Military and Governance": "",
+        "Landmarks": "",
+        "Significant Figures": "",
+        "Dilemmas and Conflicts": ""
+      }
+    },
+    {
+      "id": "sabbia-nahjari-port",
+      "name": "Nahjari Port",
+      "type": "port",
+      "position": [
+        520,
+        420
+      ],
+      "categories": {
+        "Economy": "",
+        "Lore": "",
+        "Geography": "",
+        "Military and Governance": "",
+        "Landmarks": "",
+        "Significant Figures": "",
+        "Dilemmas and Conflicts": ""
+      }
+    },
+    {
+      "id": "sabbia-sarhadsah",
+      "name": "Sarhadsah",
+      "type": "fortress",
+      "position": [
+        540,
+        440
+      ],
+      "categories": {
+        "Economy": "",
+        "Lore": "",
+        "Geography": "",
+        "Military and Governance": "",
+        "Landmarks": "",
+        "Significant Figures": "",
+        "Dilemmas and Conflicts": ""
+      }
+    },
+    {
+      "id": "sabbia-burujhaski",
+      "name": "Burujhaski",
+      "type": "village",
+      "position": [
+        560,
+        460
+      ],
+      "categories": {
+        "Economy": "",
+        "Lore": "",
+        "Geography": "",
+        "Military and Governance": "",
+        "Landmarks": "",
+        "Significant Figures": "",
+        "Dilemmas and Conflicts": ""
+      }
+    }
+  ]
+}

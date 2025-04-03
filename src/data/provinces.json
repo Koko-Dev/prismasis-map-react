@@ -4,65 +4,55 @@
     {
       "name": "The West",
       "provinces": [
-        { "id": "01", "name": "Losferoary" },
-        { "id": "02", "name": "Enetska Yendis" },
-        { "id": "03", "name": "Nivik" },
-        { "id": "04", "name": "Iyankska" },
-        { "id": "05", "name": "Daredi" },
-        { "id": "06", "name": "Aetheria" },
-        { "id": "07", "name": "Jesma" },
-        { "id": "08", "name": "Iyuha" },
-        { "id": "09", "name": "Lundene", "type": "island" },
-        { "id": "10", "name": "Gonolkai" },
-        { "id": "11", "name": "Ayahuari" },
-        { "id": "12", "name": "Sabbia" },
-        { "id": "13", "name": "The Southern Wilds" },
-        { "id": "14", "name": "Nargylis Ocean - West or Prismasis" },
-        {
-          "id": "15",
-          "name": "The Vast Kerya Sea",
-          "notes": "South of all Primasis"
-        }
+        { "id": "west-01", "name": "Losferoary" },
+        { "id": "west-02", "name": "Enetska Yendis" },
+        { "id": "west-03", "name": "Nivik" },
+        { "id": "west-04", "name": "Iyankska" },
+        { "id": "west-05", "name": "Daredi" },
+        { "id": "west-06", "name": "Aetheria" },
+        { "id": "west-07", "name": "Jesma" },
+        { "id": "west-08", "name": "Iyuha" },
+        { "id": "west-09", "name": "Lundene", "type": "island" },
+        { "id": "west-10", "name": "Gonolkai" },
+        { "id": "west-11", "name": "Ayahuari" },
+        { "id": "west-12", "name": "Sabbia" },
+        { "id": "west-13", "name": "The Southern Wilds" }
+      ],
+      "features": [
+        { "id": "west-water-01", "name": "Nargylis Ocean - West of Prismasis", "type": "ocean" },
+        { "id": "west-water-02", "name": "The Vast Kerya Sea", "type": "sea", "notes": "South of all Prismasis" }
       ]
     },
     {
       "name": "The Center",
       "provinces": [
-        { "id": "01", "name": "Siriabli" }
+        { "id": "center-01", "name": "Siriabli" }
       ]
     },
     {
       "name": "The East",
       "provinces": [
-        { "id": "01", "name": "Tserys" },
-        { "id": "02", "name": "Maixos" },
-        { "id": "03", "name": "Prexis" },
-        { "id": "04", "name": "Fjallhavn" },
-        { "id": "05", "name": "Dubrovka" },
-        { "id": "06", "name": "The Norther Wilds" },
-        { "id": "07", "name": "Priosmachairí" },
-        { "id": "08", "name": "Zerkalo Vnutri" },
-        { "id": "09", "name": "Raihan" },
-        { "id": "10", "name": "Blutmond" },
-        { "id": "11", "name": "Altomaestria" },
-        {
-          "id": "12",
-          "name": "Ispren",
-          "type": "island",
-          "notes": "Island with bridge connected to mainland"
-        },
-        { "id": "13", "name": "Maixos" },
-        { "id": "14", "name": "Prexis" },
-        {
-          "id": "15",
-          "name": "Athosi Ocean - East of Prismasis"
-        },
-        { "id": "16", "name": "Vulcana", "type": "island" },
-        { "id": "17", "name": "Papara", "type": "island" },
-        { "id": "18", "name": "Palira", "type": "island" },
-        { "id": "19", "name": "Feldrith", "type": "island" },
-        { "id": "20", "name": "Apeku", "type": "island" },
-        { "id": "21", "name": "Xianjing", "type": "island" }
+        { "id": "east-01", "name": "Tserys" },
+        { "id": "east-02", "name": "Maixos" },
+        { "id": "east-03", "name": "Prexis" },
+        { "id": "east-04", "name": "Fjallhavn" },
+        { "id": "east-05", "name": "Dubrovka" },
+        { "id": "east-06", "name": "The Norther Wilds" },
+        { "id": "east-07", "name": "Priosmachairí" },
+        { "id": "east-08", "name": "Zerkalo Vnutri" },
+        { "id": "east-09", "name": "Raihan" },
+        { "id": "east-10", "name": "Blutmond" },
+        { "id": "east-11", "name": "Altomaestria" },
+        { "id": "east-12", "name": "Ispren", "type": "island", "notes": "Island connected by bridge to mainland" },
+        { "id": "east-13", "name": "Vulcana", "type": "island" },
+        { "id": "east-14", "name": "Papara", "type": "island" },
+        { "id": "east-15", "name": "Palira", "type": "island" },
+        { "id": "east-16", "name": "Feldrith", "type": "island" },
+        { "id": "east-17", "name": "Apeku", "type": "island" },
+        { "id": "east-18", "name": "Xianjing", "type": "island" }
+      ],
+      "features": [
+        { "id": "east-water-01", "name": "Athosi Ocean - East of Prismasis", "type": "ocean" }
       ]
     }
   ]
