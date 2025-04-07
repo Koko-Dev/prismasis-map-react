@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import MapComponent from './components/MapComponent';
+import MapComponent from './components/Map/MapComponent';
 
 export default function App() {
     return (

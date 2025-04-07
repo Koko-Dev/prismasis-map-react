@@ -1,0 +1,61 @@
+Project Overview & Decisions:
+-----------------------------
+1. We are building a React project that includes an interactive map using Leaflet and react-leaflet.
+2. The project uses a static JSON file to store information about provinces (or similar world elements) since the data won't change frequently. There was a mention that while the world is built and stable, some changes might occur during conflicts, such as updating province names.
+3. The static JSON file will be placed in the project (e.g., in src/data/provinces.json) and imported directly into the React component.
+4. The React component displays an interactive map and includes features like clickable province markers, a detailed sidebar, and a dim overlay.
+5. All the necessary NPM packages will be installed via NPM. Key packages include:
+   - react and react-dom (version 19.0.0)
+   - react-leaflet (version 5.0.0) and leaflet (version 1.9.4)
+   - ESLint and related packages (eslint, eslint-plugin-react-hooks, eslint-plugin-react-refresh, @eslint/js)
+   - Globals and TypeScript types packages (globals, @types/react, @types/react-dom)
+   - Vite and the React plugin (@vitejs/plugin-react) for tooling and development.
+6. Using NPM for these packages is preferred over a CDN for better control over versions and consistency across builds.
+7. The overall development environment is set up on macOS Sonoma using WebStorm 2024.3.5.
+
+This summary should capture the main points of our discussion about data management, component structure, and the development toolset and dependencies.
+
+8.  The continent is called Prismasis Pausalis. These are its provinces, although discovery of other land is always possible:
+    i.  The West
+        01. Losferoary
+        02.  Enetska Yendis
+        03.  Nivik
+        04.  Iyankska
+        05.  Daredi
+        06.  Aetheria
+        07.  Jesma
+        08.  Iyuha
+        09.  Lundene (an island)
+        10.  Gonolkai
+        11.  Ayahuari
+        12.  Sabbia
+        13.  The Southern Wilds
+        14.  Nargylis Ocean - West or Prismasis
+        15.  The Vast Kerya Sea - is South of all Primasis
+    ii.  The Center
+        01.  Siriabli
+    iii.  The East
+        01.  Tserys
+        02.  Maixos
+        03.  Prexis
+        04.  Fjallhavn
+        05.  Dubrovka
+        06.  The Norther Wilds
+        07.  Priosmachairí
+        08.  Zerkalo Vnutri
+        09.  Raihan
+        10.  Blutmond
+        11.  Altomaestria
+        12.  Ispren (an island with bridge connected to mainland)
+        13.  Maixos
+        14.  Prexis
+        15.  Athosi Ocean - East of Prismasis
+        16.  Vulcana - an island in Athosi Ocean
+        17.  Papara - an island in Athosi Ocean
+        18.  Palira - an island in Athosi Ocean
+        19.  Feldrith - an island in Athosi Ocean
+        20.  Apeku - an island in Athosi Ocean
+        21.  Xianjing - an island in Athosi Ocean
+
+
+
