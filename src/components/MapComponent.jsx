@@ -1,108 +1,111 @@
-// Import essential libraries and dependencies for React, state management, and Leaflet maps
-import React, { useState } from 'react';
-import { MapContainer, ImageOverlay, useMapEvent } from 'react-leaflet';
-import L from 'leaflet';
+// This is the map component that shows our fantasy world
+// We can click on regions like "Sabbia" to zoom in and see more
 
-// Import map images used in your application
-import mapImg from '../assets/images/map.png';
-import sabbiaImg from '../assets/images/sabbia.jpg';
-import tserysImg from '../assets/images/tserys.jpeg';
+import React, { useState, useEffect } from 'react';
+import { MapContainer, ImageOverlay, useMapEvent, useMap } from 'react-leaflet';
+import L from 'leaflet'; // Leaflet is the map library we're using
+import 'leaflet/dist/leaflet.css';
 
-// Component handling click events on the Leaflet map
-const MapClickHandler = ({ setMapName, mapName }) => {
+// These are the images for our maps
+import mapImg from '../assets/images/map.png';      // Big world map
+import sabbiaImg from '../assets/images/sabbia.jpg'; // Close-up of Sabbia
+import tserysImg from '../assets/images/tserys.jpeg'; // Close-up of Tserys
 
-    // Listen for click events on the map and access coordinates where the click occurred
-    useMapEvent('click', (e) => {
-        // Destructure latitude (vertical position) and longitude (horizontal position)
-        const { lat, lng } = e.latlng;
-
-        // Always log clicked coordinates to console for easy debugging and determining coordinate ranges
-        console.log(`🖱️ Clicked at latitude: ${lat}, longitude: ${lng}`);
-
-        if (mapName === 'main') {
-            // Checks if clicked coordinates match the region defined for 'Sabbia'
-            if (lng >= 180 && lng <= 520 && lat >= 180 && lat <= 420) {
-                console.log('✅ Sabbia region clicked. Changing map to Sabbia.');
-                setMapName('sabbia'); // Change displayed map to Sabbia region
-            }
-            // Checks if clicked coordinates match the region defined for 'Tserys'
-            else if (lng > 500 && lng < 600 && lat > 100 && lat < 300) {
-                console.log('✅ Tserys region clicked. Changing map to Tserys.');
-                setMapName('tserys'); // Change displayed map to Tserys region
-            }
-            // Add more conditions here clearly for other regions if needed
-            else {
-                console.log('⚠️ Click did not match any defined region.');
-            }
-        } else {
-            console.log('ℹ️ You are on a sub-region map. Click "Back to World Map" to return.');
-        }
-    });
-
-    return null; // This intentionally returns null because it's a handler (it doesn't render JSX itself)
-};
-
-// Helper component to address rendering issues in Leaflet (such as forcing map resize on load)
+// This fixes a bug where the map doesn't show up right away
 const FixMapRender = () => {
-    const map = useMapEvent('load', () => {
-        // Wait for 100ms after map load event, then re-render the bounds ensuring proper display
-        setTimeout(() => map.invalidateSize(), 100);
-    });
+    const map = useMap();
+
+    // After the map loads, we tell it to resize itself correctly
+    useEffect(() => {
+        setTimeout(() => {
+            map.invalidateSize();
+        }, 100); // wait 100ms just to be safe
+    }, [map]);
+
     return null;
 };
 
-// Main component that renders your clickable interactive world map
-const MapComponent = () => {
-    // Using state hook for keeping track of currently active map ("main", "sabbia", "tserys", etc.)
-    const [mapName, setMapName] = useState('main');
+// This lets us click on parts of the map to zoom into a region
+const MapClickHandler = ({ setMapName, mapName }) => {
+    // These are your defined areas (update if your conditions change)
+    const sabbiaArea = { lngMin: 223, lngMax: 338, latMin: 100, latMax: 171 };
+    const tserysArea = { lngMin: 404, lngMax: 566, latMin: 228, latMax: 337 };
 
-    // Map settings object: clearly defines each map name with its corresponding image and bounds dimensions
+    useEffect(() => {
+        // Logs the area definitions once when your component mounts
+        console.log(`The defined areas for Sabbia are: Longitude between ${sabbiaArea.lngMin}-${sabbiaArea.lngMax}, Latitude between ${sabbiaArea.latMin}-${sabbiaArea.latMax}`);
+        console.log(`The defined areas for Tserys are: Longitude between ${tserysArea.lngMin}-${tserysArea.lngMax}, Latitude between ${tserysArea.latMin}-${tserysArea.latMax}`);
+    }, []); // Empty dependency array ensures logging only happens once on mount
+
+    useMapEvent('click', (e) => {
+        const { lat, lng } = e.latlng;
+
+        console.log(`Clicked coordinates: Latitude=${lat}, Longitude=${lng}`);
+
+        if (mapName === 'main') {
+            if (lng > sabbiaArea.lngMin && lng < sabbiaArea.lngMax && lat > sabbiaArea.latMin && lat < sabbiaArea.latMax) {
+                console.log('You clicked on Sabbia');
+                setMapName('sabbia');
+            } else if (lng > tserysArea.lngMin && lng < tserysArea.lngMax && lat > tserysArea.latMin && lat < tserysArea.latMax) {
+                console.log('You clicked on Tserys');
+                setMapName('tserys');
+            } else {
+                console.log('You clicked outside defined areas');
+            }
+        }
+    });
+
+    return null;
+};
+
+const MapComponent = () => {
+    // This keeps track of which map we're currently showing
+    const [mapName, setMapName] = useState('main'); // Start with the main world map
+
+    // Each map has its image and size (called "bounds")
     const mapSettings = {
-        main: { image: mapImg, bounds: [[0, 0], [600, 800]] }, // Main world map settings
-        sabbia: { image: sabbiaImg, bounds: [[0, 0], [600, 800]] }, // Sabbia map settings
-        tserys: { image: tserysImg, bounds: [[0, 0], [600, 800]] }, // Tserys map settings
+        main: {
+            image: mapImg,
+            bounds: [[0, 0], [600, 800]] // size of the world map
+        },
+        sabbia: {
+            image: sabbiaImg,
+            bounds: [[0, 0], [600, 800]] // size of the Sabbia map
+        },
+        tserys: {
+            image: tserysImg,
+            bounds: [[0, 0], [600, 800]] // size of the Tserys map
+        }
     };
 
-    // Current settings based on active map name in state
-    const current = mapSettings[mapName];
+    const current = mapSettings[mapName]; // This is the map we're currently using
 
     return (
         <div style={{ height: '600px', width: '100%' }}>
-            {/* MapContainer component from react-leaflet houses the interactive map logic */}
+            {/* This is the map itself */}
             <MapContainer
-                crs={L.CRS.Simple} // Use simple coordinate reference for non-geographic maps like video game or hand-drawn maps
-                bounds={current.bounds} // Sets dimensions exactly matching your uploaded image
-                style={{ height: '100%', width: '100%', cursor: 'crosshair' }} // cursor: 'crosshair' clearly gives a precise pointer for debugging coordinates
+                crs={L.CRS.Simple} // We're using a flat map instead of a globe
+                bounds={current.bounds}
+                style={{ height: '100%', width: '100%' }}
             >
+                {/* This shows the map image */}
+                <ImageOverlay url={current.image} bounds={current.bounds} />
 
-                {/* Overlays the map image onto the Leaflet Map to visualize the current region */}
-                <ImageOverlay
-                    url={current.image} // URL of the current region's image as defined above in mapSettings
-                    bounds={current.bounds} // Set boundaries clearly matching the image (top-left and bottom-right corners)
-                />
-
-                {/* Component handling clicks and triggering map switch according to clicked coordinates */}
+                {/* This lets us click on the map to zoom in */}
                 <MapClickHandler setMapName={setMapName} mapName={mapName} />
 
-                {/* Ensures map display accuracy on load or resizing events. */}
+                {/* This makes sure the map displays correctly */}
                 <FixMapRender />
-
             </MapContainer>
 
-            {/* Conditionally render a "Back to World Map" button clearly shown when viewing any sub-region */}
+            {/* Show a back button if we're not on the main map */}
             {mapName !== 'main' && (
                 <div style={{ marginTop: '10px', textAlign: 'center' }}>
-                    <button onClick={() => {
-                        console.log('🔙 Button clicked, going back to main world map.');
-                        setMapName('main');
-                    }}>
-                        🔙 Back to World Map
-                    </button>
+                    <button onClick={() => setMapName('main')}>🔙 Back to World Map</button>
                 </div>
             )}
         </div>
     );
 };
 
-// Export your fully described and functional map component for importing and usage throughout your React application
 export default MapComponent;
