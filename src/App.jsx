@@ -6,7 +6,7 @@ import MapComponent from './components/Map/MapComponent';
 export default function App() {
     return (
         <div>
-            <h1>Prismasis Map Display</h1>
+            <h1>Prismasis Pausalis</h1>
             <MapComponent />
         </div>
     );

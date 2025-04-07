@@ -7,9 +7,9 @@ import L from 'leaflet'; // Leaflet is the map library we're using
 import 'leaflet/dist/leaflet.css';
 
 // These are the images for our maps
-import mapImg from '../assets/images/map.png';      // Big world map
-import sabbiaImg from '../assets/images/sabbia.jpg'; // Close-up of Sabbia
-import tserysImg from '../assets/images/tserys.jpeg'; // Close-up of Tserys
+import mapImg from '../../assets/images/map.png';      // Big world map
+import sabbiaImg from '../../assets/images/sabbia.jpg'; // Close-up of Sabbia
+import tserysImg from '../../assets/images/tserys.jpeg'; // Close-up of Tserys
 
 // This fixes a bug where the map doesn't show up right away
 const FixMapRender = () => {
