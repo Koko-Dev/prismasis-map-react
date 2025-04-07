@@ -1,0 +1,8 @@
+/* src/styles/theme.css */
+:root {
+    --font-heading: 'Cinzel Decorative', serif;
+    --font-subheading: 'Uncial Antiqua', cursive;
+    --font-body: 'Cormorant Garamond', serif; /* or IM Fell English */
+    --background-color: #fdf8e4; /* Parchment-like background color */
+    --text-color: #4c3d34; /* Old ink, parchment vibe */
+}
