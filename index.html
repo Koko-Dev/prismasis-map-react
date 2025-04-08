@@ -1,16 +1,35 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <!--    <link rel="icon" type="image/svg+xml" href="/vite.svg" />-->
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <!-- Google Fonts Import -->
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:wght@400;600&family=Uncial+Antiqua&display=swap"
-          rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:wght@400;600&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Scroll Preloader Styles & Script -->
+    <link rel="stylesheet" href="/scroll-preloader/style.css" />
+    <script src="/scroll-preloader/script.js" defer></script>
+
     <title>Prismasis Pausalis</title>
 </head>
 <body>
-<div id="root"></div>
-<script src="/src/main.jsx" type="module"></script>
+<!-- Scroll Preloader -->
+<div id="scroll-preloader">
+    <div class="scroll-overlay"></div>
+    <div class="orb"></div>
+    <div class="quote" style="font-family: 'EB Garamond', serif; font-size: 1.8rem; letter-spacing: 0.04em;">
+        “The winds remember those who listen.”
+    </div>
+</div>
+
+<!-- React App Mount Point (initially hidden) -->
+<div id="main" style="display: none;">
+    <div id="root"></div>
+</div>
+
+<!-- Vite Entry -->
+<script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
