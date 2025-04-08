@@ -55,8 +55,8 @@ const FitMapToBounds = ({ bounds }) => {
 // Handles user interaction with the map for clicking specific regions
 const MapClickHandler = ({ setMapName, mapName }) => {
     // Define clickable bounding boxes for map regions (temporary values)
-    const sabbiaArea = { lngMin: 223, lngMax: 338, latMin: 100, latMax: 171 };
-    const tserysArea = { lngMin: 404, lngMax: 566, latMin: 228, latMax: 337 };
+    const sabbiaArea = { lngMin: 1032.4220, lngMax: 1812.6047, latMin: 541.8183, latMax: 956.8879 };
+    const tserysArea = { lngMin: 2056.6681, lngMax: 2880.8661, latMin: 1272.7888, latMax: 1920.5857 };
 
     useEffect(() => {
         // Log the defined clickable areas once on component mount
@@ -141,6 +141,13 @@ const MapComponent = () => {
                     <FixMapRender />
                     <FitMapToBounds bounds={current.bounds} />
                 </MapContainer>
+            )}
+            {mapName !== 'main' && (
+                <div style={{ position: 'absolute', top: '20px', right: '20px', zIndex: 1000 }}>
+                    <button onClick={() => setMapName('main')} style={{ padding: '10px 15px', fontSize: '16px', borderRadius: '5px', backgroundColor: '#eee', border: '1px solid #aaa' }}>
+                        🔙 Back to World Map
+                    </button>
+                </div>
             )}
         </div>
     );
