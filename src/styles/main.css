@@ -1,11 +1,14 @@
 /* Ensure the entire app fills the viewport */
 html, body, #root, #main {
     height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden; /* Prevent scrollbars */
+    box-sizing: border-box;
 }
 
-/* Background parchment + typography base */
+/* Background parchment and typography */
 body {
     background-color: var(--background-color);
     color: var(--text-color);
@@ -15,9 +18,10 @@ body {
     background-attachment: fixed;
     background-repeat: repeat;
     background-blend-mode: soft-light;
+    background-size: cover; /* Ensure it fills the screen */
 }
 
-/* Headings */
+/* Heading styles */
 h1, h2 {
     font-family: var(--font-heading);
     color: var(--text-color);
@@ -30,24 +34,23 @@ h3, h4 {
     margin-bottom: 0.5em;
 }
 
-/* Blockquotes */
+/* Blockquotes for lore flavor */
 blockquote {
     font-family: var(--font-heading);
     font-style: italic;
     border-left: 4px solid var(--text-color);
     padding-left: 15px;
+    margin: 1em 0;
 }
 
-/* Leaflet map container */
+/* Leaflet map container should always scale to viewport */
 .leaflet-container {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: transparent !important;
 }
 
-
-
-/* Back to World Map button */
+/* Button styling for returning to world map */
 .back-to-world-map {
     position: absolute;
     top: 20px;
@@ -61,4 +64,11 @@ blockquote {
     border-radius: 5px;
     background-color: #eee;
     border: 1px solid #aaa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-world-map button:hover {
+    background-color: #ddd;
 }

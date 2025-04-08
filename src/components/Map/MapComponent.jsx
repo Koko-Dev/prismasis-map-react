@@ -10,56 +10,68 @@ import mapImg from '../../assets/images/map.png';
 import sabbiaImg from '../../assets/images/sabbia.jpg';
 import tserysImg from '../../assets/images/tserys.jpeg';
 
-// Fixes layout bug by invalidating the map size after render
+// Fixes layout bug by forcing the map to redraw after rendering
 const FixMapRender = () => {
     const map = useMap();
 
     useEffect(() => {
         const handle = setTimeout(() => {
             map.invalidateSize();
-        }, 500); // Slight delay to ensure container is rendered
+        }, 500);
         return () => clearTimeout(handle);
     }, [map]);
 
     return null;
 };
 
-// Centers and fits the map to the given bounds after the component mounts
+// Dynamically fits the image to screen by calculating optimal zoom level
 const FitMapToBounds = ({ bounds }) => {
     const map = useMap();
 
     useEffect(() => {
+        const containerSize = map.getSize();
+        const imageHeight = bounds[1][0]; // Y (height in pixels)
+        const imageWidth = bounds[1][1];  // X (width in pixels)
+
+        const heightRatio = containerSize.y / imageHeight;
+        const widthRatio = containerSize.x / imageWidth;
+        const optimalZoom = Math.min(heightRatio, widthRatio);
+
+        console.log("📐 Container size:", containerSize);
+        console.log("🖼️ Image size:", imageWidth, imageHeight);
+        console.log("🧮 Calculated optimal ratio:", optimalZoom);
+
+        const centerLat = (bounds[0][0] + bounds[1][0]) / 2;
+        const centerLng = (bounds[0][1] + bounds[1][1]) / 2;
+
+        map.setView([centerLat, centerLng], map.getMinZoom());
+
         setTimeout(() => {
-            const containerSize = map.getSize();
-            console.log("🫱 Leaflet container size:", containerSize);
+            const screenWidth = window.innerWidth;
 
-            // First fit to bounds (no padding)
-            map.fitBounds(bounds, {
-                padding: [0, 0],
-                animate: false,
-            });
+            // Refined Zoom Levels (scaled down by ~0.25 from earlier version)
+            const zoomAdjustment =
+                screenWidth >= 2560 ? 1.25 :
+                    screenWidth >= 1920 ? 1.0 :
+                        screenWidth >= 1440 ? 0.75 :
+                            screenWidth >= 1024 ? 0.5 :
+                                0.25;
 
-            // After the move is complete, zoom in slightly for better effect
-            map.once('moveend', () => {
-                const currentZoom = map.getZoom();
-                map.setZoom(currentZoom + 0.25); // Can try +1 if you want it tighter
-                console.log("🔍 Zoom increased to:", map.getZoom());
-
-            });
-        }, 300); // Let layout settle before fitting bounds
+            map.setZoom(map.getZoom() + zoomAdjustment);
+            console.log(`🖥️ Screen width: ${screenWidth}, Zoom bump applied: ${zoomAdjustment}`);
+        }, 300);
     }, [map, bounds]);
 
     return null;
 };
 
-// Handles user interaction with the map for clicking specific regions
+// Handles region clicking logic
 const MapClickHandler = ({ setMapName, mapName }) => {
-    // Define clickable bounding boxes for map regions (temporary values)
+    // Bounding boxes for clickable areas on the full map
     const sabbiaArea = { lngMin: 1032.4220, lngMax: 1812.6047, latMin: 541.8183, latMax: 956.8879 };
     const tserysArea = { lngMin: 2056.6681, lngMax: 2880.8661, latMin: 1272.7888, latMax: 1920.5857 };
 
     useEffect(() => {
-        // Log the defined clickable areas once on component mount
         console.log(
             `✨ Defined areas for Sabbia: lng ${sabbiaArea.lngMin}-${sabbiaArea.lngMax}, lat ${sabbiaArea.latMin}-${sabbiaArea.latMax}`
         );
@@ -70,7 +82,7 @@ const MapClickHandler = ({ setMapName, mapName }) => {
 
     useMapEvent('click', (e) => {
         const { lat, lng } = e.latlng;
-        console.log(`📍 Clicked coordinates: Latitude=${lat}, Longitude=${lng}`); // Very useful for defining clickable zones
+        console.log(`📍 Clicked coordinates: Latitude=${lat}, Longitude=${lng}`);
 
         if (mapName === 'main') {
             if (lng > sabbiaArea.lngMin && lng < sabbiaArea.lngMax && lat > sabbiaArea.latMin && lat < sabbiaArea.latMax) {
@@ -88,53 +100,67 @@ const MapClickHandler = ({ setMapName, mapName }) => {
     return null;
 };
 
-// Main Map Component that switches between different map regions
+// Main Map Component that manages which image is shown
 const MapComponent = () => {
-    const [mapName, setMapName] = useState('main'); // Tracks current map view
-    const [ready, setReady] = useState(false);     // Only renders Leaflet when container is ready
-    const wrapperRef = useRef(null);               // Ref to the wrapper div for size checking
+    const [mapName, setMapName] = useState('main');      // Which map to show
+    const [ready, setReady] = useState(false);           // Flag for when container is ready
+    const wrapperRef = useRef(null);                     // Ref to container
 
-    // This ensures the container has a visible size before rendering the map
+    // Wait until the container is rendered and has measurable size
     useEffect(() => {
         const checkSize = () => {
             const el = wrapperRef.current;
             if (el && el.offsetWidth > 0 && el.offsetHeight > 0) {
-                setReady(true); // Trigger rendering of Leaflet map
+                setReady(true);
             } else {
-                requestAnimationFrame(checkSize); // Try again next frame
+                requestAnimationFrame(checkSize);
             }
         };
         checkSize();
     }, []);
 
-    // Each map region has an image and its pixel bounds
+    // Settings for each map region
     const mapSettings = {
         main: {
             image: mapImg,
-            bounds: [[0, 0], [3327, 4096]] // full world map dimensions (height x width)
+            bounds: [[0, 0], [3327, 4096]]
         },
         sabbia: {
             image: sabbiaImg,
-            bounds: [[0, 0], [1767, 2048]] // Sabbia province
+            bounds: [[0, 0], [1767, 2048]]
         },
         tserys: {
             image: tserysImg,
-            bounds: [[0, 0], [1587, 2048]] // Tserys province
+            bounds: [[0, 0], [1587, 2048]]
         }
     };
 
-    const current = mapSettings[mapName]; // Current map settings based on view
+    const current = mapSettings[mapName];
 
     return (
-        <div ref={wrapperRef} style={{ height: '100%', width: '100%' }}>
+        <div
+            ref={wrapperRef}
+            style={{
+                height: '100vh',
+                width: '100vw',
+                position: 'relative',
+                overflow: 'hidden'
+            }}
+        >
             {ready && (
                 <MapContainer
-                    crs={L.CRS.Simple}              // Flat projection for image maps
-                    bounds={current.bounds}         // Size of the image
-                    maxBounds={current.bounds}      // Prevents scrolling beyond image edges
-                    minZoom={-2}                    // Allows zooming out
-                    maxZoom={2}                     // Reasonable max zoom
-                    style={{ height: '100%', width: '100%' }} // Full container size
+                    crs={L.CRS.Simple}
+                    bounds={current.bounds}
+                    maxBounds={current.bounds}
+                    minZoom={-2}
+                    maxZoom={2}
+                    style={{
+                        height: '100%',
+                        width: '100%',
+                        position: 'absolute',
+                        top: 0,
+                        left: 0
+                    }}
                 >
                     <ImageOverlay url={current.image} bounds={current.bounds} />
                     <MapClickHandler setMapName={setMapName} mapName={mapName} />
@@ -142,9 +168,20 @@ const MapComponent = () => {
                     <FitMapToBounds bounds={current.bounds} />
                 </MapContainer>
             )}
+
+            {/* Only show the "Back to World Map" button if zoomed into a region */}
             {mapName !== 'main' && (
                 <div style={{ position: 'absolute', top: '20px', right: '20px', zIndex: 1000 }}>
-                    <button onClick={() => setMapName('main')} style={{ padding: '10px 15px', fontSize: '16px', borderRadius: '5px', backgroundColor: '#eee', border: '1px solid #aaa' }}>
+                    <button
+                        onClick={() => setMapName('main')}
+                        style={{
+                            padding: '10px 15px',
+                            fontSize: '16px',
+                            borderRadius: '5px',
+                            backgroundColor: '#eee',
+                            border: '1px solid #aaa'
+                        }}
+                    >
                         🔙 Back to World Map
                     </button>
                 </div>
